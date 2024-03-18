@@ -29,9 +29,15 @@ public interface EmployeeMapper {
     void insert(Employee employee);
 
     /**
-     * 分页查询
+     * 分页查询，动态sql
      * @param employeePageQueryDTO
      * @return
      */
     Page<Employee> pageQuery(EmployeePageQueryDTO employeePageQueryDTO);
+
+    /**
+     * 根据主键id执行的通用update操作，动态sql
+     * @param employee
+     */
+    void update(Employee employee);
 }
