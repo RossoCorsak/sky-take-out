@@ -4,18 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0dfa915-5e3f-4875-a114-795f9bce36a8" name="变更" comment="完成功能：启用禁用员工">
+    <list default="true" id="a0dfa915-5e3f-4875-a114-795f9bce36a8" name="变更" comment="完成功能：修改员工信息（两个接口：根据id获取员工信息、修改员工信息）">
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/annotation/AutoFill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/aspect/AutoFillAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/admin/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/DishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/SetmealMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/admin/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/admin/EmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/EmployeeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/EmployeeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,6 +54,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/JAVA_Web/sky-take-out/sky-server/src/main/java/com/sky/controller/admin",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -54,6 +69,15 @@
 }]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA_Web\sky-take-out\sky-server\src\main\java\com\sky\controller\admin" />
+      <recent name="D:\JAVA_Web\sky-take-out\sky-server\src\main\java\com\sky\service\impl" />
+      <recent name="D:\JAVA_Web\sky-take-out\sky-server\src\main\java\com\sky\service" />
+      <recent name="D:\JAVA_Web\sky-take-out\sky-server\src\main\resources\mapper" />
+      <recent name="D:\JAVA_Web\sky-take-out\sky-server\src\main\java\com\sky\mapper" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="SkyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -77,7 +101,7 @@
       <workItem from="1710071767174" duration="17328000" />
       <workItem from="1710347092038" duration="6099000" />
       <workItem from="1710427411742" duration="887000" />
-      <workItem from="1710432711035" duration="24084000" />
+      <workItem from="1710432711035" duration="35028000" />
     </task>
     <task id="LOCAL-00001" summary="苍穹外卖初始项目构建">
       <created>1710065075932</created>
@@ -121,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710781718094</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完成功能：修改员工信息（两个接口：根据id获取员工信息、修改员工信息）">
+      <created>1710834517034</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710834517034</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +175,8 @@
     <MESSAGE value="完成功能：新增员工" />
     <MESSAGE value="完成功能：员工分页查询" />
     <MESSAGE value="完成功能：启用禁用员工" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成功能：启用禁用员工" />
+    <MESSAGE value="完成功能：修改员工信息（两个接口：根据id获取员工信息、修改员工信息）" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成功能：修改员工信息（两个接口：根据id获取员工信息、修改员工信息）" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
