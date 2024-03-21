@@ -9,6 +9,8 @@ import com.sky.vo.SetmealVO;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
+import java.util.List;
+
 @Mapper
 public interface SetmealMapper {
 
@@ -21,12 +23,31 @@ public interface SetmealMapper {
     Integer countByCategoryId(Long id);
 
     /**
-     * 新增菜品
+     * 新增套餐
      * @param setmeal
      * @return
      */
     @AutoFill(OperationType.INSERT)
     void insert(Setmeal setmeal);
 
+    /**
+     * 套餐分页查询
+     * @param setmealPageQueryDTO
+     * @return
+     */
     Page<SetmealVO> pageQuery(SetmealPageQueryDTO setmealPageQueryDTO);
+
+    /**
+     * 根据套餐id和状态返回数量
+     * @param ids
+     * @param status
+     * @return
+     */
+    Integer countByIdsWithStatus(List<Long> ids, Integer status);
+
+    /**
+     * 根据id删除套餐
+     * @param ids
+     */
+    void deleteByIds(List<Long> ids);
 }
