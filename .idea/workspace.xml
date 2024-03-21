@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0dfa915-5e3f-4875-a114-795f9bce36a8" name="变更" comment="完成功能：(批量)删除菜品">
+    <list default="true" id="a0dfa915-5e3f-4875-a114-795f9bce36a8" name="变更" comment="完成功能：(批量)删除菜品(改进：删除菜品和口味的mapper方法）">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/admin/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/admin/DishController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/DishFlavorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/DishFlavorMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/DishMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/DishMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/DishService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/impl/DishServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sky-server/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/DishFlavorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/DishFlavorMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/DishMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/DishMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +97,7 @@
       <workItem from="1710071767174" duration="17328000" />
       <workItem from="1710347092038" duration="6099000" />
       <workItem from="1710427411742" duration="887000" />
-      <workItem from="1710432711035" duration="55743000" />
+      <workItem from="1710432711035" duration="62165000" />
     </task>
     <task id="LOCAL-00001" summary="苍穹外卖初始项目构建">
       <created>1710065075932</created>
@@ -182,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710941221525</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="完成功能：(批量)删除菜品(改进：删除菜品和口味的mapper方法）">
+      <created>1710942671143</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710942671143</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +218,8 @@
     <MESSAGE value="完成功能：新增菜品（三个接口：根据类型查询分类，向阿里云OSS上传图片并返回图片链接，菜品表和口味表的多表插入）" />
     <MESSAGE value="完成功能：菜品分页查询" />
     <MESSAGE value="完成功能：(批量)删除菜品" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成功能：(批量)删除菜品" />
+    <MESSAGE value="完成功能：(批量)删除菜品(改进：删除菜品和口味的mapper方法）" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成功能：(批量)删除菜品(改进：删除菜品和口味的mapper方法）" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
