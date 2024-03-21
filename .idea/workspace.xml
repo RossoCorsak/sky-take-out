@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0dfa915-5e3f-4875-a114-795f9bce36a8" name="变更" comment="完成功能：(批量)删除菜品(改进：删除菜品和口味的mapper方法）">
+    <list default="true" id="a0dfa915-5e3f-4875-a114-795f9bce36a8" name="变更" comment="完成功能：修改菜品信息和口味">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/admin/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/admin/DishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/DishFlavorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/DishFlavorMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/DishMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/DishMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/DishService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/impl/DishServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sky-server/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/DishMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/DishMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +94,7 @@
       <workItem from="1710071767174" duration="17328000" />
       <workItem from="1710347092038" duration="6099000" />
       <workItem from="1710427411742" duration="887000" />
-      <workItem from="1710432711035" duration="62165000" />
+      <workItem from="1710432711035" duration="63345000" />
     </task>
     <task id="LOCAL-00001" summary="苍穹外卖初始项目构建">
       <created>1710065075932</created>
@@ -190,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710942671143</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="完成功能：修改菜品信息和口味">
+      <created>1710996953466</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710996953466</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +223,8 @@
     <MESSAGE value="完成功能：菜品分页查询" />
     <MESSAGE value="完成功能：(批量)删除菜品" />
     <MESSAGE value="完成功能：(批量)删除菜品(改进：删除菜品和口味的mapper方法）" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成功能：(批量)删除菜品(改进：删除菜品和口味的mapper方法）" />
+    <MESSAGE value="完成功能：修改菜品信息和口味" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成功能：修改菜品信息和口味" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
